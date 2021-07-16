@@ -6,4 +6,4 @@ if n1 % 2 == 0:
 else:
 	print(f'El valor no es numero par')
 
-	#quequeueuquequeekwyuXdasdhjagjasdhahelpqSSaaaaaaaasd
+# Use el if :scream: y en PYTHON
