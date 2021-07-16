@@ -1,3 +1,5 @@
+# ah, esto es para saber si un numero es par o no jaja
+
 n1 = int(input("Ingresa el valor: "))
 
 
