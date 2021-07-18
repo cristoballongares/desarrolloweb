@@ -1,21 +1,11 @@
-# ah, esto es para saber si un numero es par o no jaja
-#
-#n1 = int(input("Ingresa el valor: "))
-#
-#
-#if n1 % 2 == 0:
-#	print(f'El valor es numero par')
-#else:
-#	print(f'El valor no es numero par')
+n1 = int(input('Ingresa el valor uno: '))
 
-# Use el if :scream: y en PYTHON
+valorminimo = 0
+valormaximo = 5
 
+estaenrango = (valorminimo <= n1) and (valormaximo >= n1)
 
-# Coso para saber si eres mayor de edad o no.
-
-edad = int(input("Digita tu edad: "))
-
-if edad >= 18:
-	print('Eres mayor de edad')
+if estaenrango:
+	print(f'El numero {n1} esta dentro de rango')
 else:
-	print('No eres mayor de edad')
+	print(f'El numero {n1} NO esta dentro de rango')
